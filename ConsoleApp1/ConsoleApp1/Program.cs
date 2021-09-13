@@ -7,6 +7,7 @@ namespace ConsoleApp1
         static protected string s ="Hello World";// demo Access specifier
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello Ddat");
             Car myO = new Car();
             //Console.WriteLine(myO.model);
             myO.nameCar(); // demo phần kế thừa
